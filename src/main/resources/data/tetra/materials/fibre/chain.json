@@ -1,0 +1,24 @@
+{
+	"key": "chain",
+	"category": "fibre",
+	"primary": 6,
+	"secondary": 1.2,
+	"tertiary": 2.5,
+	"durability": 1150,
+	"integrityCost": 3,
+	"integrityGain": 6,
+	"magicCapacity": 25,
+	"toolLevel": 0,
+	"toolEfficiency": 0,
+	"tints": {
+		"glyph": "a19d94",
+		"texture": "a19d94"
+	},
+	"textures": ["metal", "default"],
+	"material": {
+		"items": ["minecraft:chain"]
+	},
+	"requiredTools": {
+		"hammer_dig": "minecraft:iron"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"replace": true,
+	"requirements": [{
+		"type": "tetra:craft_type",
+		"craft": "module"
+	}, {
+		"type": "tetra:material",
+		"material": {
+			"items": ["minecraft:magma_block"]
+		}
+	}],
+	"outcomes": [{
+		"type": "tetra:apply_improvements",
+		"improvements": {
+			"searing_hot": 0
+		}
+	}]
+}

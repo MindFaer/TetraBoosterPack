@@ -1,0 +1,26 @@
+{
+	"key": "acacia_log",
+	"category": "wood",
+	"hidden": true,
+	"hiddenOutcomes": true,
+	"primary": 3,
+	"secondary": 1.7,
+	"tertiary": 6,
+	"durability": 59,
+	"integrityCost": 1,
+	"integrityGain": 4,
+	"magicCapacity": 90,
+	"toolLevel": "minecraft:wood",
+	"toolEfficiency": 2,
+	"tints": {
+		"glyph": "acacia_glyph",
+		"texture": "acacia"
+	},
+	"textures": ["crude", "wooden"],
+	"material": {
+		"items": ["minecraft:acacia_log"]
+	},
+	"requiredTools": {
+		"axe_dig": "minecraft:stone"
+	}
+}

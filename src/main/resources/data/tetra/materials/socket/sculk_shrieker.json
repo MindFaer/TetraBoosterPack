@@ -1,0 +1,27 @@
+{
+	"key": "socket_sculk",
+	"hidden": true,
+	"category": "socket",
+	"primary": 0,
+	"secondary": 0,
+	"tertiary": 0,
+	"durability": 90,
+	"integrityCost": 1,
+	"integrityGain": 0,
+	"magicCapacity": 0,
+	"toolLevel": 0,
+	"toolEfficiency": 0,
+	"effects": {
+		"unboundExtraction": 12,
+		"sculkTaint": [12, 0.01]
+	},
+	"tints": {
+		"glyph": "002134",
+		"texture": "002134"
+	},
+	"textures": ["default"],
+	"experienceCost": 2,
+	"material": {
+		"items": ["minecraft:sculk_shrieker"]
+	}
+}

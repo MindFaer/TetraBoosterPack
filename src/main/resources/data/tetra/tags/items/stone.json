@@ -1,0 +1,4 @@
+{
+	"replace": false,
+	"values": ["minecraft:stone", "minecraft:cobblestone", "minecraft:magma_block"]
+}

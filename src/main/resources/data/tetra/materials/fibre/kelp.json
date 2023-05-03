@@ -1,0 +1,24 @@
+{
+	"key": "kelp",
+	"category": "fibre",
+	"primary": 5,
+	"secondary": 1.5,
+	"tertiary": 3,
+	"durability": 165,
+	"integrityCost": 1,
+	"integrityGain": 4,
+	"magicCapacity": 25,
+	"toolLevel": 0,
+	"toolEfficiency": 0,
+	"tints": {
+		"glyph": "33451E",
+		"texture": "33451E"
+	},
+	"textures": ["crude", "default"],
+	"material": {
+		"items": ["minecraft:kelp"]
+	},
+	"requiredTools": {
+		"cut": "minecraft:wood"
+	}
+}

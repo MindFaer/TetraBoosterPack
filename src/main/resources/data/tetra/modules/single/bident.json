@@ -1,0 +1,30 @@
+{
+	"replace": true,
+	"type": "tetra:basic_major_module",
+	"slots": ["single/head"],
+	"improvements": ["tetra:single/spearhead/", "tetra:single/shared_head/", "tetra:single/shared/", "tetra:shared/"],
+	"variants": [{
+		"key": "bident/bident",
+		"durability": 512,
+		"integrity": -3,
+		"magicCapacity": 113,
+		"attributes": {
+			"generic.attack_damage": 10.5,
+			"generic.attack_speed": -1.1
+		},
+		"effects": {
+			"criticalStrike": [35, 2]
+		},
+		"aspects": {
+			"pointyWeapon": 2,
+			"throwable": 2,
+			"breakable": 2
+		},
+		"glyph": {
+			"textureLocation": "tetra:textures/gui/glyph2.png"
+		},
+		"models": [{
+			"location": "tetra:items/module/single/head/bident/default"
+		}]
+	}]
+}

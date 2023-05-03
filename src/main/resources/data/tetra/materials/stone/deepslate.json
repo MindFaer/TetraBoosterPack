@@ -1,0 +1,24 @@
+{
+	"key": "deepslate",
+	"category": "stone",
+	"primary": 5,
+	"secondary": 2.5,
+	"tertiary": 0,
+	"durability": 151,
+	"integrityCost": 2,
+	"integrityGain": 4,
+	"magicCapacity": 45,
+	"toolLevel": "minecraft:stone",
+	"toolEfficiency": 4,
+	"tints": {
+		"glyph": "3c3c42",
+		"texture": "3c3c42"
+	},
+	"textures": ["crude", "default"],
+	"material": {
+		"tag": "tetra:deepslate"
+	},
+	"requiredTools": {
+		"hammer_dig": "minecraft:stone"
+	}
+}

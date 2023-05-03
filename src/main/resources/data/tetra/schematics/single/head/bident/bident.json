@@ -1,0 +1,27 @@
+{
+	"replace": true,
+	"slots": ["single/head"],
+
+	"requirement": {
+		"type": "tetra:module",
+		"module": "single/trident"
+	},
+
+	"materialSlotCount": 1,
+	"materialRevealSlot": 0,
+	"rarity": "temporary",
+	"displayType": "major",
+	"glyph": {
+		"textureLocation": "tetra:textures/gui/glyph2.png"
+	},
+	"outcomes": [{
+		"material": {
+			"items": ["minecraft:wither_skeleton_skull"]
+		},
+		"requiredTools": {
+			"hammer_dig": "minecraft:diamond"
+		},
+		"moduleKey": "single/bident",
+		"moduleVariant": "bident/bident"
+	}]
+}
