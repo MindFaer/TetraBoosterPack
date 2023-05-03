@@ -1,0 +1,14 @@
+{
+	"Version": 1.0,
+	"attributemap": {
+		"sword/blade": {
+			"sword/ruined": {
+				"config": {
+					"attributes": {
+						"parent": "bettercombat:wand"
+					}
+				}
+			}
+		}
+	}
+}
