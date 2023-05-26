@@ -1,0 +1,22 @@
+{
+  "replace": true,
+  "slots": ["single/head"],
+  "materialSlotCount": 1,
+  "materialRevealSlot": 0,
+  "rarity": "temporary",
+  "displayType": "major",
+  "glyph": {
+    "textureX": 224,
+    "textureY": 32
+  },
+  "outcomes": [{
+    "material": {
+      "items": ["minecraft:dirt"]
+    },
+    "requiredTools": {
+      "hammer_dig": "minecraft:iron"
+    },
+    "moduleKey": "single/hoarfrost",
+    "moduleVariant": "hoarfrost/hoarfrost"
+  }]
+}

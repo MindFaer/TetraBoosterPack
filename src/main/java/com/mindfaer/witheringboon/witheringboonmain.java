@@ -1,4 +1,4 @@
-package com.mindfaer.tetraboosterpack;
+package com.mindfaer.witheringboon;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,16 +13,16 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(tetraboosterpackmain.tetraboosterpack)
-public class tetraboosterpackmain
+@Mod(witheringboonmain.MOD_ID)
+public class witheringboonmain
 {
     // Define mod id in a common place for everything to reference
-    public static final String tetraboosterpack = "tetraboosterpack";
+    public static final String MOD_ID = "witheringboon";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
 
-    public tetraboosterpackmain()
+    public witheringboonmain()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
@@ -43,7 +43,7 @@ public class tetraboosterpackmain
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @Mod.EventBusSubscriber(modid = tetraboosterpack, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {
         @SubscribeEvent
