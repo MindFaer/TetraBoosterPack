@@ -1,0 +1,39 @@
+{
+  "replace": true,
+  "localizationKey": "double/shared_head/hone_axe_efficiency_1",
+  "slots": ["single/head"],
+  "materialSlotCount": 0,
+  "hone": true,
+  "rarity": "hone",
+  "displayType": "major",
+  "glyph": {
+    "textureX": 176
+  },
+  "requirement": {
+    "type": "tetra:and",
+    "requirements": [{
+      "type": "tetra:or",
+      "requirements": [{
+        "type": "tetra:module",
+        "module": "single/hoarfrost"
+      }, {
+        "type": "tetra:module",
+        "module": "single/unbound_hoarfrost"
+      }]
+    }, {
+      "type": "tetra:not",
+      "requirement": {
+        "type": "tetra:improvement",
+        "improvement": "head_hone/axe_efficiency"
+      }
+    }]
+  },
+  "outcomes": [{
+    "requiredTools": {
+      "hammer_dig": "minecraft:stone"
+    },
+    "improvements": {
+      "head_hone/axe_efficiency": 1
+    }
+  }]
+}

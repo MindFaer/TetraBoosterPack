@@ -6,12 +6,11 @@
   "rarity": "temporary",
   "displayType": "major",
   "glyph": {
-    "textureX": 224,
-    "textureY": 32
+    "textureLocation": "tetra:textures/gui/glyph3.png"
   },
   "outcomes": [{
     "material": {
-      "items": ["minecraft:dirt"]
+      "items": ["witheringboon:hoarfrosthead"]
     },
     "requiredTools": {
       "hammer_dig": "minecraft:iron"
