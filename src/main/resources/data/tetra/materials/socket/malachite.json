@@ -1,0 +1,27 @@
+{
+	"key": "socket_malachite",
+	"hidden": true,
+	"category": "socket",
+	"primary": 0,
+	"secondary": 0,
+	"tertiary": 0,
+	"durability": 48,
+	"integrityCost": 1,
+	"integrityGain": 0,
+	"magicCapacity": 0,
+	"toolLevel": 0,
+	"toolEfficiency": 0,
+	"effects": {
+		"criticalStrike": [15, 2],
+		"intuit": 1
+	},
+	"tints": {
+		"glyph": "02c57f",
+		"texture": "02c57f"
+	},
+	"textures": ["default"],
+	"experienceCost": 2,
+	"material": {
+		"items": ["witheringboon:malachite"]
+	}
+}

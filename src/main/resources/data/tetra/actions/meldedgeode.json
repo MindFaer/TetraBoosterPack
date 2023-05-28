@@ -1,0 +1,10 @@
+[{
+  "key": "break_meldedgeode_action",
+  "requirement": {
+    "items": ["witheringboon:meldedgeode"]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  },
+  "lootTable": "tetra:actions/meldedgeode"
+}]
