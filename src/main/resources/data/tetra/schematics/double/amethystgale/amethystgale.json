@@ -1,0 +1,22 @@
+{
+  "replace": true,
+  "slots": ["double/head_left"],
+  "keySuffixes": ["_left"],
+  "materialSlotCount": 1,
+  "materialRevealSlot": 0,
+  "rarity": "temporary",
+  "displayType": "major",
+  "glyph": {
+    "textureLocation": "tetra:textures/gui/glyph4.png"
+  },
+  "outcomes": [{
+    "material": {
+      "items": ["witheringboon:amethystgale"]
+    },
+    "requiredTools": {
+      "hammer_dig": "minecraft:diamond"
+    },
+    "moduleKey": "double/amethystgale",
+    "moduleVariant": "amethystgale/amethystgale"
+  }]
+}

@@ -86,8 +86,17 @@
 	"tetra.material.socket_dumortieritequartz.prefix": "\u00a79Dumortierite Quartz\u00a7r",
 
 	"tetra.break_meldedgeode_action.label": "Break open carefully",
+	
+	"tetra/schematic/double/amethystgale/amethystgale.name": "Amethyst Gale",
+	"tetra/schematic/double/amethystgale/amethystgale.description": "Attach an Amethyst Gale head to a double headed tool",
+	"tetra/schematic/double/amethystgale/amethystgale.slot1": "Amethyst Gale",
+	"tetra.module.double/amethystgale.name": "Amethyst Gale",
+	"tetra.module.double/amethystgale.prefix": "Amethyst Gale",
+	"tetra.module.double/amethystgale.description": "The Amethyst Gale is a crafted greataxe head, sharpened to a fine edge",
+	"tetra.variant.amethystgale/amethystgale": "Amethyst Gale",
 
 	"item.witheringboon.hoarfrosthead": "Hoarfrost Head",
+	"item.witheringboon.amethystgale": "Amethyst Gale Head",
 	"item.witheringboon.meldedgeode": "Melded Geode",
 	"item.witheringboon.dumortieritequartz": "Dumortierite Quartz",
 	"item.witheringboon.rosequartz": "Rose Quartz",
