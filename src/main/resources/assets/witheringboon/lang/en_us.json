@@ -86,7 +86,7 @@
 	"tetra.material.socket_dumortieritequartz.prefix": "\u00a79Dumortierite Quartz\u00a7r",
 
 	"tetra.break_meldedgeode_action.label": "Break open carefully",
-	
+
 	"tetra/schematic/double/amethystgale/amethystgale.name": "Amethyst Gale",
 	"tetra/schematic/double/amethystgale/amethystgale.description": "Attach an Amethyst Gale head to a double headed tool",
 	"tetra/schematic/double/amethystgale/amethystgale.slot1": "Amethyst Gale",
@@ -95,8 +95,17 @@
 	"tetra.module.double/amethystgale.description": "The Amethyst Gale is a crafted greataxe head, sharpened to a fine edge",
 	"tetra.variant.amethystgale/amethystgale": "Amethyst Gale",
 
+	"tetra/schematic/double/wardensbane/wardensbane.name": "Warden's Bane",
+	"tetra/schematic/double/wardensbane/wardensbane.description": "Attach a Warden's Bane head to a double headed tool",
+	"tetra/schematic/double/wardensbane/wardensbane.slot1": "Warden's Bane",
+	"tetra.module.double/wardensbane.name": "Warden's Bane",
+	"tetra.module.double/wardensbane.prefix": "Warden's Bane",
+	"tetra.module.double/wardensbane.description": "The Warden's Bane is a relic, left from the previous inhabitants of the ancient city",
+	"tetra.variant.wardensbane/wardensbane": "Warden's Bane",
+
 	"item.witheringboon.hoarfrosthead": "Hoarfrost Head",
 	"item.witheringboon.amethystgale": "Amethyst Gale Head",
+	"item.witheringboon.wardensbane": "Warden's Bane",
 	"item.witheringboon.meldedgeode": "Melded Geode",
 	"item.witheringboon.dumortieritequartz": "Dumortierite Quartz",
 	"item.witheringboon.rosequartz": "Rose Quartz",

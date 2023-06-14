@@ -24,7 +24,9 @@
       "piercingHarvest": 1
     },
     "glyph": {
-      "textureLocation": "tetra:textures/gui/glyph3.png"
+      "textureLocation": "tetra:textures/gui/glyph4.png",
+      "textureX": 48,
+      "textureY": 0
     },
     "models": [{
       "location": "tetra:items/module/single/head/hoarfrost/default"

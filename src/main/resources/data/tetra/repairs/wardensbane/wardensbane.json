@@ -1,0 +1,11 @@
+{
+  "material": {
+    "items": ["minecraft:echo_shard"],
+    "count": 4
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  },
+  "moduleKey": "single/wardensbane",
+  "moduleVariant": "wardensbane/wardensbane"
+}

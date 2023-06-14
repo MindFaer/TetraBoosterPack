@@ -38,6 +38,8 @@ public class ModItems {
     public static final RegistryObject<Item> MALACHITE = ITEMS.register("malachite",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> AMETHYSTGALE = ITEMS.register("amethystgale",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> WARDENSBANE = ITEMS.register("wardensbane",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC)));
 
     public static void register(IEventBus eventBus) {

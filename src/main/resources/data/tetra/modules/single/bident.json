@@ -21,7 +21,9 @@
 			"breakable": 2
 		},
 		"glyph": {
-			"textureLocation": "tetra:textures/gui/glyph2.png"
+			"textureLocation": "tetra:textures/gui/glyph4.png",
+			"textureX": 32,
+			"textureY": 0
 		},
 		"models": [{
 			"location": "tetra:items/module/single/head/bident/default"

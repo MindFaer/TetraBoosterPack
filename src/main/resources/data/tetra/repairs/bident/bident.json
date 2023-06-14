@@ -1,1 +1,11 @@
-{"material":{"items":["minecraft:wither_skeleton_skull"],"count":1},"requiredTools":{"hammer_dig":"minecraft:diamond"},"moduleKey":"single/bident","moduleVariant":"bident/bident"}
+{
+  "material": {
+    "items": ["minecraft:wither_skeleton_skull"],
+    "count": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  },
+  "moduleKey": "single/bident",
+  "moduleVariant": "bident/bident"
+}

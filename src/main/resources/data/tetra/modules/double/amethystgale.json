@@ -6,7 +6,7 @@
   "improvements": ["tetra:double/axe/", "tetra:double/shared_head/", "tetra:double/shared/", "tetra:shared/"],
   "variants": [{
     "key": "amethystgale/amethystgale",
-    "integrity": -2,
+    "integrity": -4,
 
     "attributes": {
       "generic.attack_speed": -1.35,
