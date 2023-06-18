@@ -17,6 +17,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE).stacksTo(1)));
     public static final RegistryObject<Item> MELDEDGEODE = ITEMS.register("meldedgeode",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> HARDENEDPRISMARINE = ITEMS.register("hardenedprismarine",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.COMMON)));
     public static final RegistryObject<Item> ROSEQUARTZ = ITEMS.register("rosequartz",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> DUMORTIERITEQUARTZ = ITEMS.register("dumortieritequartz",
@@ -40,6 +42,10 @@ public class ModItems {
     public static final RegistryObject<Item> AMETHYSTGALE = ITEMS.register("amethystgale",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE).stacksTo(1)));
     public static final RegistryObject<Item> WARDENSBANE = ITEMS.register("wardensbane",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC).stacksTo(1)));
+    public static final RegistryObject<Item> WITHEREDBLOOD = ITEMS.register("witheredblood",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC).stacksTo(1)));
+    public static final RegistryObject<Item> BLACKBLOODBLADE = ITEMS.register("blackbloodblade",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {

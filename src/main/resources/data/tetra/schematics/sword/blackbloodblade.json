@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "slots": ["sword/blade"],
+  "repair": false,
+  "materialSlotCount": 1,
+  "materialRevealSlot": 0,
+  "rarity": "temporary",
+  "displayType": "major",
+  "glyph": {
+    "textureLocation": "tetra:textures/gui/glyph4.png",
+    "textureX": 64,
+    "textureY": 0
+  },
+  "outcomes": [{
+    "material": {
+      "items": ["witheringboon:blackbloodblade"]
+    },
+    "requiredTools": {
+      "hammer_dig": "minecraft:wood"
+    },
+    "moduleKey": "sword/blackbloodblade",
+    "moduleVariant": "blackbloodblade/blackbloodblade"
+  }]
+}

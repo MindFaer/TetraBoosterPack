@@ -16,6 +16,8 @@
 
 	"tetra.material.warped_stem": "Warped Stem",
 	"tetra.material.warped_stem.prefix": "Warped Stem",
+	"tetra.material.hardenedprismarine": "Hardened Prismarine",
+	"tetra.material.hardenedprismarine.prefix": "Hardened Prismarine",
 	"tetra.material.crimson_stem.prefix": "Crimson Stem",
 	"tetra.material.crimson_stem": "Crimson Stem",
 	"tetra.material.mangrove": "Mangrove",
@@ -103,6 +105,14 @@
 	"tetra.module.double/wardensbane.description": "The Warden's Bane is a relic, left from the previous inhabitants of the ancient city",
 	"tetra.variant.wardensbane/wardensbane": "Warden's Bane",
 
+	"tetra/schematic/sword/blackbloodblade.name": "Black Blood Blade",
+	"tetra/schematic/sword/blackbloodblade.description": "Attach a Black Blood Blade to a handle",
+	"tetra/schematic/sword/blackbloodblade.slot1": "Black Blood Blade",
+	"tetra.module.sword/blackbloodblade.name": "Black Blood Blade",
+	"tetra.module.sword/blackbloodblade.prefix": "Black Blood Blade",
+	"tetra.module.sword/blackbloodblade.description": "A Maddening Aura Surrounds the Blade, Perhaps It Holds Some Dark Energy",
+	"tetra.variant.blackbloodblade/blackbloodblade": "Black Blood Blade",
+
 	"item.witheringboon.hoarfrosthead": "Hoarfrost Head",
 	"item.witheringboon.hardenedprismarine": "Hardened Prismarine",
 	"item.witheringboon.amethystgale": "Amethyst Gale Head",
@@ -118,6 +128,8 @@
 	"item.witheringboon.chalcanthite": "Chalcanthite",
 	"item.witheringboon.peridot": "Peridot",
 	"item.witheringboon.malachite": "Malachite",
+	"item.witheringboon.witheredblood": "Withered Blood",
+	"item.witheringboon.blackbloodblade": "Black Blood Blade",
 
 	"tetra/schematic/single/head/hoarfrost/hone_piercing_1.name": "Hone: Piercing I",
 	"tetra/schematic/single/head/hoarfrost/hone_piercing_1.description": "Hone the hoarfrost axe to increase the piercing effect.",

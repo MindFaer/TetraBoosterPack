@@ -1,0 +1,24 @@
+{
+  "key": "hardenedprismarine",
+  "category": "metal",
+  "primary": 7.4,
+  "secondary": 3.1,
+  "tertiary": 1.2,
+  "durability": 1320,
+  "integrityCost": 2,
+  "integrityGain": 4,
+  "magicCapacity": 192,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 7,
+  "tints": {
+    "glyph": "849DB7",
+    "texture": "697B8C"
+  },
+  "textures": ["heavy", "crude"],
+  "material": {
+    "items": ["witheringboon:hardenedprismarine"]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:diamond"
+  }
+}

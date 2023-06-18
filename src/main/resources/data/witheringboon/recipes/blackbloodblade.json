@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nPF",
+    "nNV",
+    "nWV"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "P": {
+      "item": "tetra:quick_latch"
+    },
+    "F": {
+      "item": "tetra:forged_beam"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "V": {
+      "item": "tetra:vent_plate"
+    },
+    "W": {
+      "item": "witheringboon:witheredblood"
+    }
+  },
+  "result": {
+    "item": "witheringboon:blackbloodblade",
+    "count": 1
+  }
+}
