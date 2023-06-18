@@ -14,7 +14,7 @@ public class ModItems {
         DeferredRegister.create(ForgeRegistries.ITEMS, witheringboonmain.MOD_ID);
 
     public static final RegistryObject<Item> HOARFROSTHEAD = ITEMS.register("hoarfrosthead",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE).stacksTo(1)));
     public static final RegistryObject<Item> MELDEDGEODE = ITEMS.register("meldedgeode",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> ROSEQUARTZ = ITEMS.register("rosequartz",
@@ -38,9 +38,9 @@ public class ModItems {
     public static final RegistryObject<Item> MALACHITE = ITEMS.register("malachite",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> AMETHYSTGALE = ITEMS.register("amethystgale",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE).stacksTo(1)));
     public static final RegistryObject<Item> WARDENSBANE = ITEMS.register("wardensbane",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC)));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -8,6 +8,29 @@
 						"parent": "bettercombat:trident"
 					}
 				}
+			},
+			"single/hoarfrost": {
+				"config": {
+					"attributes": {
+						"parent": "bettercombat:halberd"
+					}
+				}
+			}
+		},
+		"double/head_left": {
+			"double/wardensbane_left": {
+				"config": {
+					"attributes": {
+						"parent": "bettercombat:scythe"
+					}
+				}
+			},
+			"double/amethystgale_left": {
+				"config": {
+					"attributes": {
+						"parent": "bettercombat:heavy_axe"
+					}
+				}
 			}
 		}
 	}

@@ -1,6 +1,8 @@
 package com.mindfaer.witheringboon;
 
 import com.mindfaer.witheringboon.item.ModItems;
+import com.mindfaer.witheringboon.loot.LootTableLootModifier;
+import com.mindfaer.witheringboon.loot.WBLootModifiers;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,6 +29,7 @@ public class witheringboonmain
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        WBLootModifiers.LOOT_MODIFIER.register(modEventBus);
         ModItems.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -35,15 +38,12 @@ public class witheringboonmain
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
-    {
-    }
+    {}
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
-    {
-
-    }
+    {}
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -51,7 +51,6 @@ public class witheringboonmain
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
-        {
-        }
+        {}
     }
 }
