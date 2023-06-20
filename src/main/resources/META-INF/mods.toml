@@ -45,7 +45,7 @@ description='''
 Adds a lot of new materials and schematics to tetra to either expand uses for certain materials, or to help playstyles get a boost
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.tetraboosterpack]] #optional
+[[dependencies.witheringboon]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -57,7 +57,7 @@ Adds a lot of new materials and schematics to tetra to either expand uses for ce
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.tetraboosterpack]]
+[[dependencies.witheringboon]]
     modId="minecraft"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
