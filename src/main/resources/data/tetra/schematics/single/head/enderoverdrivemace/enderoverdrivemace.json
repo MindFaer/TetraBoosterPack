@@ -1,29 +1,23 @@
 {
 	"replace": true,
 	"slots": ["single/head"],
-
-	"requirement": {
-		"type": "tetra:module",
-		"module": "single/trident"
-	},
-
 	"materialSlotCount": 1,
 	"materialRevealSlot": 0,
 	"rarity": "temporary",
 	"displayType": "major",
 	"glyph": {
 		"textureLocation": "tetra:textures/gui/glyph4.png",
-		"textureX": 32,
+		"textureX": 80,
 		"textureY": 0
 	},
 	"outcomes": [{
 		"material": {
-			"items": ["minecraft:wither_skeleton_skull"]
+			"items": ["witheringboon:enderoverdrivemodule"]
 		},
 		"requiredTools": {
-			"hammer_dig": "minecraft:diamond"
+			"hammer_dig": 7
 		},
-		"moduleKey": "single/bident",
-		"moduleVariant": "bident/bident"
+		"moduleKey": "single/enderoverdrivemace",
+		"moduleVariant": "enderoverdrivemace/enderoverdrivemace"
 	}]
 }

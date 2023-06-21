@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "slots": ["double/head_right"],
+  "keySuffixes": ["_right"],
+  "materialSlotCount": 1,
+  "materialRevealSlot": 0,
+  "rarity": "temporary",
+  "displayType": "major",
+  "glyph": {
+    "textureLocation": "tetra:textures/gui/glyph4.png",
+    "textureX": 80,
+    "textureY": 0
+  },
+  "outcomes": [{
+    "material": {
+      "items": ["witheringboon:enderoverdrivemodule"]
+    },
+    "requiredTools": {
+      "hammer_dig": 7
+    },
+    "moduleKey": "double/enderoverdrivemodule",
+    "moduleVariant": "enderoverdrivemodule/enderoverdrivemodule"
+  }]
+}

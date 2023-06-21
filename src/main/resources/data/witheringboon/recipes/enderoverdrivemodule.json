@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "tetra:forged_beam"
+    },
+    "B": {
+      "item": "tetra:forged_bolt"
+    },
+    "C": {
+      "item": "tetra:planar_stabilizer"
+    },
+     "D": {
+      "item": "witheringboon:enderchamber"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "BDB",
+    "ACA"
+  ],
+  "result": {
+    "item": "witheringboon:enderoverdrivemodule"
+  }
+}

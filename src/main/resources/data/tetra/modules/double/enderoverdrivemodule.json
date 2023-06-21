@@ -1,0 +1,42 @@
+{
+  "replace": true,
+  "type": "tetra:multi_major_module",
+  "slots": ["double/head_right"],
+  "slotSuffixes": ["_right"],
+  "improvements": ["tetra:double/hammer/", "tetra:double/shared_head/", "tetra:double/shared/", "tetra:shared/"],
+  "variants": [{
+    "key": "enderoverdrivemodule/enderoverdrivemodule",
+    "integrity": -2,
+
+    "attributes": {
+      "generic.attack_speed": -1.35,
+      "generic.attack_damage": 12.5
+    },
+
+    "aspects": {
+      "blockBreaker": 2,
+      "breakable": 2,
+      "bluntWeapon": 1
+    },
+
+    "effects": {
+      "abilityRevenge": 60,
+      "abilityOvercharge": [10, 1.5]
+    },
+
+    "durability": 372,
+    "glyph": {
+      "textureLocation": "tetra:textures/gui/glyph4.png",
+      "textureX": 80,
+      "textureY": 0
+    },
+
+    "tools": {
+      "hammer_dig": [5, 4]
+    },
+
+    "models": [{
+      "location": "tetra:items/module/double/head/enderoverdrivemodule/enderoverdrivemodule"
+    }]
+  }]
+}

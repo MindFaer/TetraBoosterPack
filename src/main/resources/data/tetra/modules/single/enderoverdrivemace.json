@@ -1,0 +1,37 @@
+{
+  "replace": true,
+  "type": "tetra:basic_major_module",
+  "slots": ["single/head"],
+  "improvements": ["tetra:double/hammer/", "tetra:single/spearhead/", "tetra:single/shared_head/", "tetra:single/shared/", "tetra:shared/"],
+  "variants": [{
+    "key": "enderoverdrivemace/enderoverdrivemace",
+    "durability": 771,
+    "integrity": -3,
+    "magicCapacity": 48,
+    "attributes": {
+      "generic.attack_speed": -1.6,
+      "generic.attack_damage": 12.5
+    },
+    "aspects": {
+      "blockBreaker": 2,
+      "breakable": 2,
+      "bluntWeapon": 1
+    },
+    "tools": {
+      "hammer_dig": [5, 4]
+    },
+    "effects": {
+      "slam": [50, 1.4],
+      "abilityOvercharge": [10, 1.5]
+    },
+
+    "glyph": {
+      "textureLocation": "tetra:textures/gui/glyph4.png",
+      "textureX": 80,
+      "textureY": 0
+    },
+    "models": [{
+      "location": "tetra:items/module/single/head/enderoverdrivemace/default"
+    }]
+  }]
+}

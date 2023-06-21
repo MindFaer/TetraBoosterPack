@@ -15,6 +15,13 @@
 						"parent": "bettercombat:halberd"
 					}
 				}
+			},
+			"single/enderoverdrivemace": {
+				"config": {
+					"attributes": {
+						"parent": "bettercombat:mace"
+					}
+				}
 			}
 		},
 		"double/head_left": {
@@ -29,6 +36,15 @@
 				"config": {
 					"attributes": {
 						"parent": "bettercombat:heavy_axe"
+					}
+				}
+			}
+		},
+		"sword/blade": {
+			"sword/blackbloodblade": {
+				"config": {
+					"attributes": {
+						"parent": "bettercombat:claymore"
 					}
 				}
 			}
