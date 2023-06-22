@@ -22,7 +22,9 @@
       "sweeping": [2, 0.5],
       "truesweep": 1,
       "bleeding": 2,
-      "skewering": [3, 5]
+      "skewering": [3, 5],
+      "lunge": 85,
+      "abilityOverextend": [15, 0.5]
     },
     "glyph": {
       "textureLocation": "tetra:textures/gui/glyph4.png",

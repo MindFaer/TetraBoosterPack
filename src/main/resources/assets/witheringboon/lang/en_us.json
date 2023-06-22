@@ -88,6 +88,15 @@
 	"tetra.material.socket_dumortieritequartz": "Dumortierite Quartz",
 	"tetra.material.socket_dumortieritequartz.prefix": "\u00a79Dumortierite Quartz\u00a7r",
 
+	"tetra/schematic/bow/stave/lostviper.name": "Lost Viper Bow",
+	"tetra/schematic/bow/stave/lostviper.description": "Replaces the stave with a straight stave crafted from the given materials.",
+	"tetra/schematic/bow/stave/lostviper.slot1": "Lost Viper Bow",
+	"tetra.module.bow/lostviper.item_name": "Lost Viper Bow",
+	"tetra.module.bow/lostviper.name": "Lost Viper Bow",
+	"tetra.module.bow/lostviper.description": "A long lost bow stave, found in jungle temples",
+	"tetra.variant.lostviper/lostviper": "Lost viper Bow",
+
+
 	"tetra.break_meldedgeode_action.label": "Break open carefully",
 
 	"tetra/schematic/double/amethystgale/amethystgale.name": "Amethyst Gale",
@@ -150,6 +159,7 @@
 	"item.witheringboon.blackbloodblade": "Ragnarok's Edge",
 	"item.witheringboon.enderchamber": "Ender Combustion Chamber",
 	"item.witheringboon.enderoverdrivemodule": "Ender Overdrive Module",
+	"item.witheringboon.lostviper": "Lost Viper Bow Stave",
 
 	"tetra/schematic/single/head/hoarfrost/hone_piercing_1.name": "Hone: Piercing I",
 	"tetra/schematic/single/head/hoarfrost/hone_piercing_1.description": "Hone the hoarfrost axe to increase the piercing effect.",

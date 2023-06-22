@@ -1,0 +1,11 @@
+{
+  "material": {
+    "items": ["minecraft:shulker_shell"],
+    "count": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  },
+  "moduleKey": "single/enderoverdrivemace",
+  "moduleVariant": "enderoverdrivemace/enderoverdrivemace"
+}

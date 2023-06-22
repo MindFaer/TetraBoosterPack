@@ -1,0 +1,34 @@
+{
+  "replace": true,
+  "slots": ["bow/stave"],
+  "type": "tetra:basic_major_module",
+  "improvements": ["tetra:bow/straight_stave/", "tetra:bow/shared_stave/", "tetra:bow/shared/", "tetra:shared/"],
+  "variants": [{
+    "key": "lostviper/lostviper",
+    "attributes": {
+      "tetra:draw_speed": 1.7,
+      "tetra:draw_strength": 9
+    },
+    "aspects": {
+      "bow": 2,
+      "breakable": 2
+    },
+    "effects": {
+      "spread": [0, 99],
+      "multishot": [3, 3],
+      "suspend": 1
+    },
+    "durability": 2562,
+    "models": [{
+      "location": "tetra:items/module/bow/stave/lostviper/lostviper"
+    }, {
+      "type": "draw_0",
+      "location": "tetra:items/module/bow/stave/lostviper/0_lostviper"
+    }, {
+      "type": "draw_1",
+      "location": "tetra:items/module/bow/stave/lostviper/1_lostviper"
+    }, {
+      "type": "draw_2",
+      "location": "tetra:items/module/bow/stave/lostviper/2_lostviper"
+    }]
+}]}
