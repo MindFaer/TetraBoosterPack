@@ -12,12 +12,12 @@
   },
   "outcomes": [{
     "material": {
-      "items": ["witheringboon:lostviper"]
+      "items": ["witheringboon:raidhorn"]
     },
     "requiredTools": {
       "hammer_dig": 5
     },
-    "moduleKey": "bow/lostviper",
-    "moduleVariant": "lostviper/lostviper"
+    "moduleKey": "bow/raidhorn",
+    "moduleVariant": "raidhorn/raidhorn"
   }]
 }

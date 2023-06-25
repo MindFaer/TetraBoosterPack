@@ -4,36 +4,36 @@
   "type": "tetra:basic_major_module",
   "improvements": ["tetra:bow/straight_stave/", "tetra:bow/shared_stave/", "tetra:bow/shared/", "tetra:shared/"],
   "variants": [{
-    "key": "lostviper/lostviper",
+    "key": "raidhorn/raidhorn",
     "attributes": {
-      "tetra:draw_speed": 1.7,
-      "tetra:draw_strength": 9
+      "tetra:draw_speed": 4.0,
+      "tetra:draw_strength": 7
     },
     "aspects": {
       "bow": 2,
       "breakable": 2
     },
     "effects": {
-      "spread": [0, 99],
-      "multishot": [2, 3],
-      "suspend": 1
+      "overbowed": 30,
+      "spread": [0, 90],
+      "multishot": [5, 5]
     },
-    "durability": 2562,
+    "durability": 1472,
     "glyph": {
       "textureLocation": "tetra:textures/gui/glyph4.png",
       "textureX": 96,
       "textureY": 0
     },
     "models": [{
-      "location": "tetra:items/module/bow/stave/lostviper/lostviper"
+      "location": "tetra:items/module/bow/stave/raidhorn/raidhorn"
     }, {
       "type": "draw_0",
-      "location": "tetra:items/module/bow/stave/lostviper/0_lostviper"
+      "location": "tetra:items/module/bow/stave/raidhorn/0_raidhorn"
     }, {
       "type": "draw_1",
-      "location": "tetra:items/module/bow/stave/lostviper/1_lostviper"
+      "location": "tetra:items/module/bow/stave/raidhorn/1_raidhorn"
     }, {
       "type": "draw_2",
-      "location": "tetra:items/module/bow/stave/lostviper/2_lostviper"
+      "location": "tetra:items/module/bow/stave/raidhorn/2_raidhorn"
     }]
 }]}

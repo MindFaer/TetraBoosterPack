@@ -52,7 +52,9 @@ public class ModItems {
     public static final RegistryObject<Item> BLACKBLOODBLADE = ITEMS.register("blackbloodblade",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC).stacksTo(1)));
     public static final RegistryObject<Item> LOSTVIPER = ITEMS.register("lostviper",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC).stacksTo(1)));
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE).stacksTo(1)));
+    public static final RegistryObject<Item> RAIDHORN = ITEMS.register("raidhorn",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

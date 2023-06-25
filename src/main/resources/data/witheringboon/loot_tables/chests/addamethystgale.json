@@ -19,7 +19,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 5
+          "weight": 10
         }
       ]
     }

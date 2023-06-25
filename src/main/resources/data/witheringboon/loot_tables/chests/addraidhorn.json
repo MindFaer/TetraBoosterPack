@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "witheringboon:wardensbane",
+          "name": "witheringboon:raidhorn",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -19,7 +19,7 @@
         },
         {
           "type": "minecraft:empty",
-          "weight": 13
+          "weight": 10
         }
       ]
     }

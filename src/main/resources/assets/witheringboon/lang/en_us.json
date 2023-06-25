@@ -96,6 +96,14 @@
 	"tetra.module.bow/lostviper.description": "A long lost bow stave, found in jungle temples",
 	"tetra.variant.lostviper/lostviper": "Lost viper Bow",
 
+	"tetra/schematic/bow/stave/raidhorn.name": "Raid Horn Bow",
+	"tetra/schematic/bow/stave/raidhorn.description": "Replaces the stave with a long stave crafted from the given materials.",
+	"tetra/schematic/bow/stave/raidhorn.slot1": "Raid Horn Bow",
+	"tetra.module.bow/raidhorn.item_name": "Raid Horn Bow",
+	"tetra.module.bow/raidhorn.name": "Raid Horn Bow",
+	"tetra.module.bow/raidhorn.description": "A pillager's attempt at stronger weaponry",
+	"tetra.variant.raidhorn/raidhorn": "Raid Horn Bow",
+
 
 	"tetra.break_meldedgeode_action.label": "Break open carefully",
 
@@ -160,6 +168,7 @@
 	"item.witheringboon.enderchamber": "Ender Combustion Chamber",
 	"item.witheringboon.enderoverdrivemodule": "Ender Overdrive Module",
 	"item.witheringboon.lostviper": "Lost Viper Bow Stave",
+	"item.witheringboon.raidhorn": "Raid Horn Bow Stave",
 
 	"tetra/schematic/single/head/hoarfrost/hone_piercing_1.name": "Hone: Piercing I",
 	"tetra/schematic/single/head/hoarfrost/hone_piercing_1.description": "Hone the hoarfrost axe to increase the piercing effect.",
