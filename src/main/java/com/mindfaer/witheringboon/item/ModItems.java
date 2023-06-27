@@ -55,6 +55,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE).stacksTo(1)));
     public static final RegistryObject<Item> RAIDHORN = ITEMS.register("raidhorn",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE).stacksTo(1)));
+    public static final RegistryObject<Item> SOULANITEINGOT = ITEMS.register("soulaniteingot",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> SOULANITEALLOY = ITEMS.register("soulanitealloy",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

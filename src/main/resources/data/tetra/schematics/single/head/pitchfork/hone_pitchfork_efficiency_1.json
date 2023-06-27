@@ -1,0 +1,34 @@
+{
+  "replace": true,
+  "localizationKey": "double/shared_head/hone_pitchfork_efficiency_1",
+  "slots": ["single/head"],
+  "materialSlotCount": 0,
+  "hone": true,
+  "rarity": "hone",
+  "displayType": "major",
+  "glyph": {
+    "textureX": 16,
+    "textureY": 32
+  },
+  "requirement": {
+    "type": "tetra:and",
+    "requirements": [{
+      "type": "tetra:module",
+      "module": "single/basic_pitchfork"
+    }, {
+      "type": "tetra:not",
+      "requirement": {
+        "type": "tetra:improvement",
+        "improvement": "head_hone/pitchfork_efficiency"
+      }
+    }]
+  },
+  "outcomes": [{
+    "requiredTools": {
+      "hammer_dig": "minecraft:gold"
+    },
+    "improvements": {
+      "head_hone/pitchfork_efficiency": 1
+    }
+  }]
+}

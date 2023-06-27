@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 800,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "witheringboon:soulanitealloy"
+  },
+  "result": "witheringboon:soulaniteingot"
+}

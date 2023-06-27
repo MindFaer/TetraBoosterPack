@@ -1,0 +1,27 @@
+{
+  "replace": true,
+  "slots": ["single/head"],
+  "materialSlotCount": 1,
+  "displayType": "major",
+  "glyph": {
+    "textureLocation": "tetra:textures/gui/glyph4.png",
+    "textureX": 112,
+    "textureY": 0
+  },
+  "translation": {
+    "primaryAttributes": {
+      "generic.attack_damage": 1
+    },
+    "tools": {
+      "hoe_dig": [3, 3]
+    },
+    "durability": 3,
+    "integrity": -3,
+    "magicCapacity": 3
+  },
+  "outcomes": [{
+    "materials": ["tetra:wood/", "tetra:metal/", "tetra:gem/"],
+    "moduleKey": "single/basic_pitchfork",
+    "moduleVariant": "basic_pitchfork/"
+  }]
+}

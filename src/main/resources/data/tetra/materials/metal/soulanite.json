@@ -1,0 +1,24 @@
+{
+  "key": "soulanite",
+  "category": "metal",
+  "primary": 7.6,
+  "secondary": 3.0,
+  "tertiary": 3.7,
+  "durability": 2131,
+  "integrityCost": 2,
+  "integrityGain": 7,
+  "magicCapacity": 186,
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": 10,
+  "tints": {
+    "glyph": "4FB3C5",
+    "texture": "4FB3C5"
+  },
+  "textures": ["heavy", "crude"],
+  "material": {
+    "items": ["witheringboon:soulaniteingot"]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

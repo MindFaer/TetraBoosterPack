@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "witheringboon:hardenedprismarine"
+    },
+    {
+      "item": "witheringboon:witheredblood"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    }
+  ],
+  "result": {
+    "item": "witheringboon:soulanitealloy"
+  }
+}
