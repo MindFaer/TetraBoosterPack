@@ -16,6 +16,13 @@
 					}
 				}
 			},
+			"single/pitchfork": {
+				"config": {
+					"attributes": {
+						"parent": "bettercombat:spear"
+					}
+				}
+			},
 			"single/enderoverdrivemace": {
 				"config": {
 					"attributes": {
@@ -26,6 +33,13 @@
 		},
 		"double/head_left": {
 			"double/wardensbane_left": {
+				"config": {
+					"attributes": {
+						"parent": "bettercombat:scythe"
+					}
+				}
+			},
+			"double/wardenhunterleft_left": {
 				"config": {
 					"attributes": {
 						"parent": "bettercombat:scythe"

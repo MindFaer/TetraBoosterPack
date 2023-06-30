@@ -178,6 +178,22 @@
 	"tetra.module.double/wardensbane.description": "The Warden's Bane is a relic, left from the previous inhabitants of the ancient city",
 	"tetra.variant.wardensbane/wardensbane": "Warden's Bane",
 
+	"tetra/schematic/double/wardenhunter/wardenhunterleft.name": "Warden Hunter Scythe",
+	"tetra/schematic/double/wardenhunter/wardenhunterleft.description": "Attach a Warden Hunter Scythe head to a double headed tool",
+	"tetra/schematic/double/wardenhunter/wardenhunterleft.slot1": "Warden Hunter Scythe",
+	"tetra.module.double/wardenhunterleft.name": "Warden Hunter Scythe",
+	"tetra.module.double/wardenhunterleft.prefix": "Warden Hunter Scythe",
+	"tetra.module.double/wardenhunterleft.description": "The Warden Hunter Scythe is an upgraded warden's bane",
+	"tetra.variant.wardenhunterleft/wardenhunterleft": "Warden Hunter Scythe",
+
+	"tetra/schematic/double/wardenhunter/wardenhunterright.name": "Warden Hunter Scythe",
+	"tetra/schematic/double/wardenhunter/wardenhunterright.description": "Attach a Warden Hunter Scythe head to a double headed tool",
+	"tetra/schematic/double/wardenhunter/wardenhunterright.slot1": "Warden Hunter Scythe",
+	"tetra.module.double/wardenhunterright.name": "Warden Hunter Scythe",
+	"tetra.module.double/wardenhunterright.prefix": "Warden Hunter Scythe",
+	"tetra.module.double/wardenhunterright.description": "The Warden Hunter Scythe is an upgraded warden's bane",
+	"tetra.variant.wardenhunterright/wardenhunterright": "Warden Hunter Scythe",
+
 	"tetra/schematic/sword/blackbloodblade.name": "Ragnarok's Edge",
 	"tetra/schematic/sword/blackbloodblade.description": "Replace the current blade with Ragnarok's Edge",
 	"tetra/schematic/sword/blackbloodblade.slot1": "Ragnarok's Edge",
@@ -209,6 +225,7 @@
 	"item.witheringboon.raidhorn": "Raid Horn Bow Stave",
 	"item.witheringboon.soulaniteingot": "Soulanite Ingot",
 	"item.witheringboon.soulanitealloy": "Soulanite Alloy Mix",
+	"item.witheringboon.wardenhunter": "Warden Hunter Scythe Head",
 
 	"tetra/schematic/single/head/hoarfrost/hone_piercing_1.name": "Hone: Piercing I",
 	"tetra/schematic/single/head/hoarfrost/hone_piercing_1.description": "Hone the hoarfrost axe to increase the piercing effect.",

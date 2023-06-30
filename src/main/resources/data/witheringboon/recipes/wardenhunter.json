@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "witheringboon:soulaniteingot"
+  },
+  "base": {
+    "item": "witheringboon:wardensbane"
+  },
+  "result": {
+    "item": "witheringboon:wardenhunter"
+  }
+}

@@ -45,6 +45,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.RARE).stacksTo(1)));
     public static final RegistryObject<Item> WARDENSBANE = ITEMS.register("wardensbane",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC).stacksTo(1)));
+    public static final RegistryObject<Item> WARDENHUNTER = ITEMS.register("wardenhunter",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC).stacksTo(1)));
     public static final RegistryObject<Item> ENDEROVERDRIVEMODULE = ITEMS.register("enderoverdrivemodule",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC).rarity(Rarity.EPIC).stacksTo(1)));
     public static final RegistryObject<Item> WITHEREDBLOOD = ITEMS.register("witheredblood",

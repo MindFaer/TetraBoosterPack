@@ -1,0 +1,45 @@
+{
+  "replace": true,
+  "type": "tetra:multi_major_module",
+  "slots": ["double/head_left"],
+  "slotSuffixes": ["_left"],
+  "improvements": ["tetra:double/sickle/", "tetra:double/shared_head/", "tetra:double/shared/", "tetra:shared/"],
+  "variants": [{
+    "key": "wardenhunterleft/wardenhunterleft",
+    "integrity": -3,
+
+    "attributes": {
+      "generic.attack_speed": -1.10,
+      "generic.attack_damage": 14.5
+    },
+
+    "aspects": {
+      "blockBreaker": 2,
+      "edgedWeapon": 1,
+      "breakable": 2
+    },
+
+    "effects": {
+      "strikingHoe": 1,
+      "sweepingStrike": 1,
+      "sweeping": [3, 2],
+      "crushing": 4,
+      "overpower": [130, 30]
+    },
+
+    "durability": 372,
+    "glyph": {
+      "textureLocation": "tetra:textures/gui/glyph4.png",
+      "textureX": 16,
+      "textureY": 0
+    },
+
+    "tools": {
+      "hoe_dig": [2,7.5]
+    },
+
+    "models": [{
+      "location": "tetra:items/module/double/head/wardenhunter/wardenhunter"
+    }]
+  }]
+}
