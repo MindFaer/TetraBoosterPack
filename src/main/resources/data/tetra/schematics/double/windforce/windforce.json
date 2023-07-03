@@ -8,21 +8,19 @@
   "displayType": "major",
   "requirement": {
     "type": "tetra:module",
-    "module": "double/wardensbane_left"
+    "module": "double/amethystgale_left"
   },
   "glyph": {
-    "textureLocation": "tetra:textures/gui/glyph4.png",
-    "textureX": 16,
-    "textureY": 0
+    "textureLocation": "tetra:textures/gui/glyph4.png"
   },
   "outcomes": [{
     "material": {
       "items": ["witheringboon:soulaniteingot"]
     },
     "requiredTools": {
-      "hammer_dig": 7
+      "hammer_dig": "minecraft:diamond"
     },
-    "moduleKey": "double/wardenhunterleft",
-    "moduleVariant": "wardenhunterleft/wardenhunterleft"
+    "moduleKey": "double/windforce",
+    "moduleVariant": "windforce/windforce"
   }]
 }

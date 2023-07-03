@@ -1,18 +1,18 @@
 {
   "replace": true,
-  "slots": ["double/head_left"],
-  "keySuffixes": ["_left"],
+  "slots": ["sword/blade"],
+  "repair": false,
   "materialSlotCount": 1,
   "materialRevealSlot": 0,
-  "rarity": "temporary",
-  "displayType": "major",
   "requirement": {
     "type": "tetra:module",
-    "module": "double/wardensbane_left"
+    "module": "sword/blackbloodblade"
   },
+  "rarity": "temporary",
+  "displayType": "major",
   "glyph": {
     "textureLocation": "tetra:textures/gui/glyph4.png",
-    "textureX": 16,
+    "textureX": 64,
     "textureY": 0
   },
   "outcomes": [{
@@ -20,9 +20,9 @@
       "items": ["witheringboon:soulaniteingot"]
     },
     "requiredTools": {
-      "hammer_dig": 7
+      "hammer_dig": "minecraft:wood"
     },
-    "moduleKey": "double/wardenhunterleft",
-    "moduleVariant": "wardenhunterleft/wardenhunterleft"
+    "moduleKey": "sword/souleatingblade",
+    "moduleVariant": "souleatingblade/souleatingblade"
   }]
 }

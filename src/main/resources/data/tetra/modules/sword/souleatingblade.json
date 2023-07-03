@@ -1,0 +1,38 @@
+{
+  "replace": true,
+  "type": "tetra:basic_major_module",
+  "slots": ["sword/blade"],
+  "improvements": ["tetra:sword/blackbloodblade/", "tetra:sword/shared_blade/", "tetra:sword/shared/", "tetra:shared/"],
+  "variants": [{
+    "key": "souleatingblade/souleatingblade",
+    "durability": 2548,
+    "integrity": -5,
+    "magicCapacity": 76,
+    "attributes": {
+      "generic.attack_damage": 12.5,
+      "generic.attack_speed": -1.8
+    },
+    "aspects": {
+      "edgedWeapon": 2,
+      "breakable": 2
+    },
+    "tools": {
+    },
+    "effects": {
+      "sweeping": [2, 0.5],
+      "truesweep": 1,
+      "bleeding": 2,
+      "skewering": [3, 5],
+      "lunge": 95,
+      "abilityOverextend": [15, 0.5]
+    },
+    "glyph": {
+      "textureLocation": "tetra:textures/gui/glyph4.png",
+      "textureX": 64,
+      "textureY": 0
+    },
+    "models": [{
+      "location": "tetra:items/module/sword/blade/souleatingblade/default"
+    }]
+  }]
+}
