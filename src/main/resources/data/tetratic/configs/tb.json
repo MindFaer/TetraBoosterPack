@@ -16,7 +16,7 @@
 					}
 				}
 			},
-			"single/pitchfork": {
+			"single/basic_pitchfork": {
 				"config": {
 					"attributes": {
 						"parent": "bettercombat:spear"
@@ -52,10 +52,24 @@
 						"parent": "bettercombat:heavy_axe"
 					}
 				}
+			},
+			"double/windforce_left": {
+				"config": {
+					"attributes": {
+						"parent": "bettercombat:heavy_axe"
+					}
+				}
 			}
 		},
 		"sword/blade": {
 			"sword/blackbloodblade": {
+				"config": {
+					"attributes": {
+						"parent": "bettercombat:claymore"
+					}
+				}
+			},
+			"sword/souleatingblade": {
 				"config": {
 					"attributes": {
 						"parent": "bettercombat:claymore"

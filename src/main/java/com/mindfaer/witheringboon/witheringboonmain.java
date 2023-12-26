@@ -19,12 +19,8 @@ import org.slf4j.Logger;
 @Mod(witheringboonmain.MOD_ID)
 public class witheringboonmain
 {
-    // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "witheringboon";
-    // Directly reference a slf4j logger
-    public static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Blocks which will all be registered under the "examplemod" namespace
-
+   public static final String MOD_ID = "witheringboon";
+   public static final Logger LOGGER = LogUtils.getLogger();
     public witheringboonmain()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

@@ -136,7 +136,6 @@
 	"tetra.module.single/basic_pitchfork.material_name": "%s Pitchfork",
 	"tetra.module.single/basic_pitchfork.prefix": "%s",
 
-
 	"tetra/schematic/bow/stave/raidhorn.name": "Raid Horn Bow",
 	"tetra/schematic/bow/stave/raidhorn.description": "Replaces the stave with a long stave crafted from the given materials.",
 	"tetra/schematic/bow/stave/raidhorn.slot1": "Raid Horn Bow",
