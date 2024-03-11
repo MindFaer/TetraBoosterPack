@@ -16,11 +16,16 @@
 		"glyph": "birch_glyph",
 		"texture": "birch"
 	},
-	"textures": ["crude", "wooden"],
+	"textures": [
+		"crude",
+		"wooden"
+	],
 	"material": {
-		"items": ["minecraft:birch_log"]
+		"items": [
+			"minecraft:birch_log"
+		]
 	},
 	"requiredTools": {
-		"axe_dig": "minecraft:stone"
+		"axe_dig": "minecraft:wood"
 	}
 }

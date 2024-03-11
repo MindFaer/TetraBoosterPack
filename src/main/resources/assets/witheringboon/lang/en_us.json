@@ -252,5 +252,7 @@
 	"tetra/schematic/single/head/hoarfrost/hone_piercing_4.name": "Hone: Piercing IV",
 	"tetra/schematic/single/head/hoarfrost/hone_piercing_4.description": "Hone the hoarfrost axe to further increase the piercing effect.",
 	"tetra.improvement.head_hone/piercing.name": "Hone: Piercing",
-	"tetra.improvement.head_hone/piercing.description": "Improves the piercing effect"
+	"tetra.improvement.head_hone/piercing.description": "Improves the piercing effect",
+
+	"creativetab.witheringboon": "§c§lWithering Boon"
 }
