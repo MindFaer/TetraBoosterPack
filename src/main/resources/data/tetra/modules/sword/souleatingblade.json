@@ -32,7 +32,7 @@
       "textureY": 0
     },
     "models": [{
-      "location": "tetra:items/module/sword/blade/souleatingblade/default"
+      "location": "tetra:item/module/sword/blade/souleatingblade/default"
     }]
   }]
 }

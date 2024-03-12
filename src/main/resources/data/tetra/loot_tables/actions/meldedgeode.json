@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "witheringboon:prase",
-          "weight": 6,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -19,7 +19,7 @@
         {
           "type": "minecraft:item",
           "name": "witheringboon:rosequartz",
-          "weight": 4,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -31,7 +31,7 @@
         {
           "type": "minecraft:item",
           "name": "witheringboon:citrine",
-          "weight": 4,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -43,7 +43,7 @@
         {
           "type": "minecraft:item",
           "name": "witheringboon:jasper",
-          "weight": 4,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -55,7 +55,7 @@
         {
           "type": "minecraft:item",
           "name": "witheringboon:kyanite",
-          "weight": 4,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -67,7 +67,7 @@
         {
           "type": "minecraft:item",
           "name": "witheringboon:tanzanite",
-          "weight": 4,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -79,7 +79,7 @@
         {
           "type": "minecraft:item",
           "name": "witheringboon:chalcanthite",
-          "weight": 4,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -91,7 +91,7 @@
         {
           "type": "minecraft:item",
           "name": "witheringboon:peridot",
-          "weight": 4,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -103,7 +103,7 @@
         {
           "type": "minecraft:item",
           "name": "witheringboon:malachite",
-          "weight": 4,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -115,7 +115,7 @@
         {
           "type": "minecraft:item",
           "name": "witheringboon:dumortieritequartz",
-          "weight": 8,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -127,7 +127,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 4,
+          "weight": 2,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -171,7 +171,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 4,
+          "weight": 1,
           "conditions": [
             {
               "condition": "tetra:random_chance_with_fortune",
@@ -193,7 +193,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
-          "weight": 5,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",

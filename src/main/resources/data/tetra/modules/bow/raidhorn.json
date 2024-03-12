@@ -25,15 +25,15 @@
       "textureY": 0
     },
     "models": [{
-      "location": "tetra:items/module/bow/stave/raidhorn/raidhorn"
+      "location": "tetra:item/module/bow/stave/raidhorn/raidhorn"
     }, {
       "type": "draw_0",
-      "location": "tetra:items/module/bow/stave/raidhorn/0_raidhorn"
+      "location": "tetra:item/module/bow/stave/raidhorn/0_raidhorn"
     }, {
       "type": "draw_1",
-      "location": "tetra:items/module/bow/stave/raidhorn/1_raidhorn"
+      "location": "tetra:item/module/bow/stave/raidhorn/1_raidhorn"
     }, {
       "type": "draw_2",
-      "location": "tetra:items/module/bow/stave/raidhorn/2_raidhorn"
+      "location": "tetra:item/module/bow/stave/raidhorn/2_raidhorn"
     }]
 }]}

@@ -1,38 +1,46 @@
 {
   "replace": true,
   "type": "tetra:basic_major_module",
-  "slots": ["sword/blade"],
-  "improvements": ["tetra:sword/blackbloodblade/", "tetra:sword/shared_blade/", "tetra:sword/shared/", "tetra:shared/"],
-  "variants": [{
-    "key": "blackbloodblade/blackbloodblade",
-    "durability": 2048,
-    "integrity": -5,
-    "magicCapacity": 76,
-    "attributes": {
-      "generic.attack_damage": 9.5,
-      "generic.attack_speed": -1.8
-    },
-    "aspects": {
-      "edgedWeapon": 2,
-      "breakable": 2
-    },
-    "tools": {
-    },
-    "effects": {
-      "sweeping": [2, 0.5],
-      "truesweep": 1,
-      "bleeding": 2,
-      "skewering": [3, 5],
-      "lunge": 85,
-      "abilityOverextend": [15, 0.5]
-    },
-    "glyph": {
-      "textureLocation": "tetra:textures/gui/glyph4.png",
-      "textureX": 64,
-      "textureY": 0
-    },
-    "models": [{
-      "location": "tetra:items/module/sword/blade/blackbloodblade/default"
-    }]
-  }]
+  "slots": [
+    "sword/blade"
+  ],
+  "improvements": [
+    "tetra:sword/blackbloodblade/",
+    "tetra:sword/shared_blade/",
+    "tetra:sword/shared/",
+    "tetra:shared/"
+  ],
+  "variants": [
+    {
+      "key": "blackbloodblade/blackbloodblade",
+      "durability": 2048,
+      "integrity": -5,
+      "magicCapacity": 76,
+      "attributes": {
+        "generic.attack_damage": 9.5,
+        "generic.attack_speed": -1.8
+      },
+      "aspects": {
+        "edged_weapon": 2,
+        "breakable": 2
+      },
+      "effects": {
+        "sweeping": [2, 0.5],
+        "truesweep": 1,
+        "bleeding": 2,
+        "skewering": [3, 5],
+        "lunge": 85,
+        "abilityOverextend": [15, 0.5]
+      },
+      "glyph": {
+        "textureLocation": "tetra:textures/gui/glyph4.png",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:item/module/sword/blade/blackbloodblade/default"
+        }
+      ]
+    }
+  ]
 }

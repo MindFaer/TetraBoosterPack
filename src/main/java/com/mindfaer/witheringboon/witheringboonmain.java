@@ -1,6 +1,7 @@
 package com.mindfaer.witheringboon;
 
 import com.mojang.logging.LogUtils;
+import com.mindfaer.witheringboon.loot.ModLootModifiers;
 import com.mindfaer.witheringboon.item.ModCreativeModTabs;
 import com.mindfaer.witheringboon.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,8 @@ public class witheringboonmain {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

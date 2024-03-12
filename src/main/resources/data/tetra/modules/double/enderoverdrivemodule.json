@@ -36,7 +36,7 @@
     },
 
     "models": [{
-      "location": "tetra:items/module/double/head/enderoverdrivemodule/enderoverdrivemodule"
+      "location": "tetra:item/module/double/head/enderoverdrivemodule/enderoverdrivemodule"
     }]
   }]
 }

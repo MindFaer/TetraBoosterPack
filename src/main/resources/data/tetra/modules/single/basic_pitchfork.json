@@ -37,7 +37,7 @@
       },
       "availableTextures": ["crude", "metal", "shiny"],
       "models": [{
-        "location": "tetra:items/module/single/head/basic_pitchfork/"
+        "location": "tetra:item/module/single/head/basic_pitchfork/"
       }]
     }
   }]

@@ -1,12 +1,13 @@
 {
-  "replace": false,
   "entries": [
-    "witheringboon:inject_ancient_city_chest_wardensbane",
+    "witheringboon:inject_witheredsoulstone",
     "witheringboon:inject_hardenedprismarine",
+    "witheringboon:inject_hardenedprismarineextra",
     "witheringboon:inject_abandoned_mineshaft_chest_amethyst",
-    "witheringboon:inject_witheredblood",
+    "witheringboon:inject_ancient_city_chest_wardensbane",
     "witheringboon:inject_end_city_ender_chamber",
     "witheringboon:inject_jungle_temple_lostviper",
     "witheringboon:inject_pillager_outpost_raidhorn"
-  ]
+  ],
+  "replace": false
 }

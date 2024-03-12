@@ -18,6 +18,7 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.witheringboon"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.AMETHYSTGALE.get());
+                        pOutput.accept(ModItems.WARDENSBANE.get());
                         pOutput.accept(ModItems.BLACKBLOODBLADE.get());
                         pOutput.accept(ModItems.ENDERCHAMBER.get());
                         pOutput.accept(ModItems.ENDEROVERDRIVEMODULE.get());
@@ -27,7 +28,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAIDHORN.get());
                         pOutput.accept(ModItems.SOULANITEALLOY.get());
                         pOutput.accept(ModItems.SOULANITEINGOT.get());
-                        pOutput.accept(ModItems.WITHEREDBLOOD.get());
+                        pOutput.accept(ModItems.WITHEREDSOULSTONE.get());
 
                         pOutput.accept(ModItems.MELDEDGEODE.get());
 
@@ -40,6 +41,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.MALACHITE.get());
                         pOutput.accept(ModItems.PERIDOT.get());
                         pOutput.accept(ModItems.PRASE.get());
+                        pOutput.accept(ModItems.ROSEQUARTZ.get());
                         pOutput.accept(ModItems.TANZANITE.get());
 
                     })

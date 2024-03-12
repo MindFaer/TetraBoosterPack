@@ -46,7 +46,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1)));
     public static final RegistryObject<Item> ENDEROVERDRIVEMODULE = ITEMS.register("enderoverdrivemodule",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1)));
-    public static final RegistryObject<Item> WITHEREDBLOOD = ITEMS.register("witheredblood",
+    public static final RegistryObject<Item> WITHEREDSOULSTONE = ITEMS.register("witheredsoulstone",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1)));
     public static final RegistryObject<Item> BLACKBLOODBLADE = ITEMS.register("blackbloodblade",
             () -> new Item(new Item.Properties().rarity(Rarity.EPIC).stacksTo(1)));

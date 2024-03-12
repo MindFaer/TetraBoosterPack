@@ -41,7 +41,7 @@
     },
 
     "models": [{
-      "location": "tetra:items/module/double/head/wardensbane/wardensbane"
+      "location": "tetra:item/module/double/head/wardensbane/wardensbane"
     }]
   }]
 }

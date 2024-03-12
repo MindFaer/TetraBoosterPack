@@ -38,7 +38,7 @@
     },
 
     "models": [{
-      "location": "tetra:items/module/double/head/wardenhunter/wardenhunter"
+      "location": "tetra:item/module/double/head/wardenhunter/wardenhunter"
     }]
   }]
 }

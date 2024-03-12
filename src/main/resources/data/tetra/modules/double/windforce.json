@@ -38,7 +38,7 @@
     },
 
     "models": [{
-      "location": "tetra:items/module/double/head/windforce/windforce"
+      "location": "tetra:item/module/double/head/windforce/windforce"
     }]
   }]
 }

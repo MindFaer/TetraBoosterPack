@@ -1,9 +1,13 @@
 {
-  "type": "witheringboon:add_to_loot_table",
+  "type": "witheringboon:add_item",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
       "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+    },
+    {
+      "chance": 0.087,
+      "condition": "minecraft:random_chance"
     }
   ],
   "loot_table": "witheringboon:chests/addamethystgale"

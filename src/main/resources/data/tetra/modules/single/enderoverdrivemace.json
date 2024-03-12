@@ -31,7 +31,7 @@
       "textureY": 0
     },
     "models": [{
-      "location": "tetra:items/module/single/head/enderoverdrivemace/default"
+      "location": "tetra:item/module/single/head/enderoverdrivemace/default"
     }]
   }]
 }

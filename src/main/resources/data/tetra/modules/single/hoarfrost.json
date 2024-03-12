@@ -29,7 +29,7 @@
       "textureY": 0
     },
     "models": [{
-      "location": "tetra:items/module/single/head/hoarfrost/default"
+      "location": "tetra:item/module/single/head/hoarfrost/default"
     }]
   }]
 }

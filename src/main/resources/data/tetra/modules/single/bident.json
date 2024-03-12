@@ -26,7 +26,7 @@
 			"textureY": 0
 		},
 		"models": [{
-			"location": "tetra:items/module/single/head/bident/default"
+			"location": "tetra:item/module/single/head/bident/default"
 		}]
 	}]
 }

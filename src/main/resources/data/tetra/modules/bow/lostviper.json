@@ -25,15 +25,15 @@
       "textureY": 0
     },
     "models": [{
-      "location": "tetra:items/module/bow/stave/lostviper/lostviper"
+      "location": "tetra:item/module/bow/stave/lostviper/lostviper"
     }, {
       "type": "draw_0",
-      "location": "tetra:items/module/bow/stave/lostviper/0_lostviper"
+      "location": "tetra:item/module/bow/stave/lostviper/0_lostviper"
     }, {
       "type": "draw_1",
-      "location": "tetra:items/module/bow/stave/lostviper/1_lostviper"
+      "location": "tetra:item/module/bow/stave/lostviper/1_lostviper"
     }, {
       "type": "draw_2",
-      "location": "tetra:items/module/bow/stave/lostviper/2_lostviper"
+      "location": "tetra:item/module/bow/stave/lostviper/2_lostviper"
     }]
 }]}

@@ -38,7 +38,7 @@
     },
 
     "models": [{
-      "location": "tetra:items/module/double/head/amethystgale/amethystgale"
+      "location": "tetra:item/module/double/head/amethystgale/amethystgale"
     }]
   }]
 }

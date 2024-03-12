@@ -234,7 +234,7 @@
 	"item.witheringboon.chalcanthite": "Chalcanthite",
 	"item.witheringboon.peridot": "Peridot",
 	"item.witheringboon.malachite": "Malachite",
-	"item.witheringboon.witheredblood": "Withered Blood",
+	"item.witheringboon.witheredsoulstone": "Withered Soul Stone",
 	"item.witheringboon.blackbloodblade": "Ragnarok's Edge",
 	"item.witheringboon.enderchamber": "Ender Combustion Chamber",
 	"item.witheringboon.enderoverdrivemodule": "Ender Overdrive Module",
@@ -254,5 +254,5 @@
 	"tetra.improvement.head_hone/piercing.name": "Hone: Piercing",
 	"tetra.improvement.head_hone/piercing.description": "Improves the piercing effect",
 
-	"creativetab.witheringboon": "§c§lWithering Boon"
+	"creativetab.witheringboon": "§bWithering Boon"
 }

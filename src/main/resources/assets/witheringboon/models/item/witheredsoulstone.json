@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "witheringboon:item/witheredblood"
+    "layer0": "witheringboon:item/witheredsoulstone"
   }
 }
