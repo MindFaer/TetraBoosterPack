@@ -6,9 +6,9 @@
       "loot_table_id": "minecraft:chests/pillager_outpost"
     },
     {
-      "chance": 0.14,
+      "chance": 0.25,
       "condition": "minecraft:random_chance"
     }
   ],
-  "loot_table": "witheringboon:chests/addraidhorn"
+  "item": "witheringboon:raidhorn"
 }

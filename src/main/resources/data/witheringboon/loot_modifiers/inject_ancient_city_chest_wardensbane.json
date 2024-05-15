@@ -6,9 +6,9 @@
       "loot_table_id": "minecraft:chests/ancient_city"
     },
     {
-      "chance": 0.067,
+      "chance": 0.10,
       "condition": "minecraft:random_chance"
     }
   ],
-  "loot_table": "witheringboon:chests/addwardensbane"
+  "item": "witheringboon:wardensbane"
 }

@@ -6,9 +6,9 @@
       "loot_table_id": "minecraft:chests/jungle_temple"
     },
     {
-      "chance": 0.1,
+      "chance": 0.20,
       "condition": "minecraft:random_chance"
     }
   ],
-  "loot_table": "witheringboon:chests/addlostviper"
+  "item": "witheringboon:lostviperee"
 }
