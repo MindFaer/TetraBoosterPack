@@ -1,0 +1,44 @@
+{
+  "replace": true,
+  "type": "tetra:basic_major_module",
+  "slots": [
+    "shield/plate"
+  ],
+  "improvements": [
+    "tetra:shield/plate/heater/",
+    "tetra:shield/plate/shared/",
+    "tetra:shared/"
+  ],
+  "variants": [
+    {
+      "key": "eom/eom",
+      "attributes": {
+        "tetra:ability_damage": 1,
+        "tetra:ability_cooldown": 2
+      },
+      "aspects": {
+        "blunt_weapon": 1,
+        "breakable": 2
+      },
+      "effects": {
+        "blocking": [
+          5,
+          1
+        ]
+      },
+      "durability": 24000,
+      "integrity": -3,
+      "magicCapacity": 0,
+      "glyph": {
+        "textureX": 32,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "tetra:plate/heater",
+          "location": "tetra:item/module/shield/plate/heater/eom"
+        }
+      ]
+    }
+  ]
+}

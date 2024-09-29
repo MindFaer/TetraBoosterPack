@@ -6,7 +6,7 @@
     "armorPenetration": 2
   },
   "models": [{
-    "location": "tetra:items/module/sword/blade/heavy/improvements/tempered",
+    "location": "tetra:item/module/sword/blade/heavy/improvements/tempered",
     "tint": "inherit"
   }]
 }, {
@@ -20,7 +20,7 @@
     "armorPenetration": 3
   },
   "models": [{
-    "location": "tetra:items/module/sword/blade/heavy/improvements/tempered",
+    "location": "tetra:item/module/sword/blade/heavy/improvements/tempered",
     "tint": "inherit"
   }]
 }, {
@@ -34,7 +34,7 @@
     "armorPenetration": 5
   },
   "models": [{
-    "location": "tetra:items/module/sword/blade/heavy/improvements/tempered",
+    "location": "tetra:item/module/sword/blade/heavy/improvements/tempered",
     "tint": "inherit"
   }]
 }]
