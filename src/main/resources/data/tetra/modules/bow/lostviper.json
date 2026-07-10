@@ -1,39 +1,65 @@
 {
   "replace": true,
-  "slots": ["bow/stave"],
+  "slots": [
+    "bow/stave"
+  ],
   "type": "tetra:basic_major_module",
-  "improvements": ["tetra:bow/straight_stave/", "tetra:bow/shared_stave/", "tetra:bow/shared/", "tetra:shared/"],
-  "variants": [{
-    "key": "lostviper/lostviper",
-    "attributes": {
-      "tetra:draw_speed": 1.7,
-      "tetra:draw_strength": 9
-    },
-    "aspects": {
-      "bow": 2,
-      "breakable": 2
-    },
-    "effects": {
-      "spread": [0, 99],
-      "multishot": [2, 3],
-      "suspend": 1
-    },
-    "durability": 2562,
-    "glyph": {
-      "textureLocation": "tetra:textures/gui/glyph4.png",
-      "textureX": 96,
-      "textureY": 0
-    },
-    "models": [{
-      "location": "tetra:item/module/bow/stave/lostviper/lostviper"
-    }, {
-      "type": "draw_0",
-      "location": "tetra:item/module/bow/stave/lostviper/0_lostviper"
-    }, {
-      "type": "draw_1",
-      "location": "tetra:item/module/bow/stave/lostviper/1_lostviper"
-    }, {
-      "type": "draw_2",
-      "location": "tetra:item/module/bow/stave/lostviper/2_lostviper"
-    }]
-}]}
+  "improvements": [
+    "tetra:bow/straight_stave/",
+    "tetra:bow/shared_stave/",
+    "tetra:bow/shared/",
+    "tetra:shared/"
+  ],
+  "variants": [
+    {
+      "key": "lostviper/lostviper",
+      "attributes": {
+        "tetra:draw_speed": 1.7,
+        "tetra:draw_strength": 9
+      },
+      "aspects": {
+        "bow": 2,
+        "breakable": 2
+      },
+      "effects": {
+        "spread": [
+          0,
+          99
+        ],
+        "multishot": [
+          2,
+          3
+        ],
+        "suspend": 1
+      },
+      "durability": 2562,
+      "glyph": {
+        "textureLocation": "tetra:textures/gui/glyph4.png",
+        "textureX": 96,
+        "textureY": 0
+      },
+      "models": [
+        {
+          "type": "tetra:filtered_grid_texture",
+          "location": "tetra:item/module/bow/stave/lostviper/lostviper",
+          "filter": "undrawn"
+        },
+        {
+          "type": "tetra:filtered_grid_texture",
+          "location": "tetra:item/module/bow/stave/lostviper/0_lostviper",
+          "filter": "draw_0"
+        },
+        {
+          "type": "tetra:filtered_grid_texture",
+          "location": "tetra:item/module/bow/stave/lostviper/1_lostviper",
+          "filter": "draw_1"
+        },
+        {
+          "type": "tetra:filtered_grid_texture",
+          "location": "tetra:item/module/bow/stave/lostviper/2_lostviper",
+          "filter": "draw_2"
+        }
+      ]
+    }
+  ]
+}

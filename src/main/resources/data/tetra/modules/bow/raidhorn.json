@@ -1,39 +1,65 @@
 {
   "replace": true,
-  "slots": ["bow/stave"],
+  "slots": [
+    "bow/stave"
+  ],
   "type": "tetra:basic_major_module",
-  "improvements": ["tetra:bow/straight_stave/", "tetra:bow/shared_stave/", "tetra:bow/shared/", "tetra:shared/"],
-  "variants": [{
-    "key": "raidhorn/raidhorn",
-    "attributes": {
-      "tetra:draw_speed": 4.0,
-      "tetra:draw_strength": 7
-    },
-    "aspects": {
-      "bow": 2,
-      "breakable": 2
-    },
-    "effects": {
-      "overbowed": 30,
-      "spread": [0, 90],
-      "multishot": [5, 5]
-    },
-    "durability": 1472,
-    "glyph": {
-      "textureLocation": "tetra:textures/gui/glyph4.png",
-      "textureX": 96,
-      "textureY": 0
-    },
-    "models": [{
-      "location": "tetra:item/module/bow/stave/raidhorn/raidhorn"
-    }, {
-      "type": "draw_0",
-      "location": "tetra:item/module/bow/stave/raidhorn/0_raidhorn"
-    }, {
-      "type": "draw_1",
-      "location": "tetra:item/module/bow/stave/raidhorn/1_raidhorn"
-    }, {
-      "type": "draw_2",
-      "location": "tetra:item/module/bow/stave/raidhorn/2_raidhorn"
-    }]
-}]}
+  "improvements": [
+    "tetra:bow/straight_stave/",
+    "tetra:bow/shared_stave/",
+    "tetra:bow/shared/",
+    "tetra:shared/"
+  ],
+  "variants": [
+    {
+      "key": "raidhorn/raidhorn",
+      "attributes": {
+        "tetra:draw_speed": 4,
+        "tetra:draw_strength": 7
+      },
+      "aspects": {
+        "bow": 2,
+        "breakable": 2
+      },
+      "effects": {
+        "overbowed": 30,
+        "spread": [
+          0,
+          90
+        ],
+        "multishot": [
+          5,
+          5
+        ]
+      },
+      "durability": 1472,
+      "glyph": {
+        "textureLocation": "tetra:textures/gui/glyph4.png",
+        "textureX": 96,
+        "textureY": 0
+      },
+      "models": [
+        {
+          "type": "tetra:filtered_grid_texture",
+          "location": "tetra:item/module/bow/stave/raidhorn/raidhorn",
+          "filter": "undrawn"
+        },
+        {
+          "type": "tetra:filtered_grid_texture",
+          "location": "tetra:item/module/bow/stave/raidhorn/0_raidhorn",
+          "filter": "draw_0"
+        },
+        {
+          "type": "tetra:filtered_grid_texture",
+          "location": "tetra:item/module/bow/stave/raidhorn/1_raidhorn",
+          "filter": "draw_1"
+        },
+        {
+          "type": "tetra:filtered_grid_texture",
+          "location": "tetra:item/module/bow/stave/raidhorn/2_raidhorn",
+          "filter": "draw_2"
+        }
+      ]
+    }
+  ]
+}
